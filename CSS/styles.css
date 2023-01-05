@@ -1,0 +1,31 @@
+*{
+    background-color: black;
+    color: #DAA520;
+}
+
+.first{
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.perfil {
+    width: 200x;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.icone {
+    width: 35px;
+    height: 35px;
+}
+
+.second{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+
+
