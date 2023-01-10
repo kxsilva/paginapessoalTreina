@@ -1,31 +1,69 @@
-*{
-    background-color: black;
-    color: #DAA520;
+
+body{
+    background: linear-gradient(#678983, #2C74B3);
+    background-repeat: no-repeat;
+    color: #181D31;
+    font-family: 'Poppins', sans-serif;
 }
 
-.first{
-    justify-content: center;
-    text-align: center;
-    
+.div1{
+    font-size: 20px;
 }
 
-.perfil {
-    width: 200x;
-    height: 200px;
+.perfil{
     border-radius: 100%;
+    float: left;
+    margin: 10px;
 }
 
-.icone {
-    width: 35px;
-    height: 35px;
+table, tr, td{
+    width: 50vw;
+    border: black solid 1px ;
+    border-collapse: collapse;
+    padding: 5px;
 }
 
-.second{
+.linkedin{
+    transition: 0.3s ease-in-out;
+}
+.linkedin:hover{
+    width: 40px;
+    height: 40px;
+}
+
+a{
+    transition: 80ms;
+}
+a:hover{
+    font-size: 125%;
+}
+
+hr{
+
+    border-style: dotted none none none;
+    border-width: 5px;
+    height: 1px;
+    width: 20%;
+    border-color: hsl(235, 16%, 30%);
+
+}
+
+.conteudo1{
+    width: 100%;
     display: flex;
-    text-align: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 
-
-
+.conteudo2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
