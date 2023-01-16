@@ -10,91 +10,179 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
+    <div class="content">
 
-    <div class="div1">
-
-
-        <img class="perfil" src="img/fotopag.jpeg" alt="" width="300px" height="230px">
-
-        <h1>Kaynã Xavier</h1>
-        <p>
-            <em>
-                Estudante de programação com objetivo em ser um desenvolvedor back-end
-            </em>
-
-        </p>
-
-        <p>Veja meu </p><a href=""><img src="img/linkedin.png" width="30px" height="30px" class="linkedin"></a>
-
-
-    </div>
-
-    <br>
-
-    
-    <div class="conteudo1">
-        <p>Atualmente estou cursando um curso Técnico de Informática, um curso superior em Análise e desenvolvimento
-            de sistemas, além disso, tenho certificações na linguagem Java, Python e MySQL.
-        </p>
-        <br>
+        <nav class="navbar navbar-dark nav1 fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/treina.png" alt="" width="40" height="30"
+                        class="d-inline-block align-text-top treinaimg">
+                    Página Pessoal Treina Recife
+                </a>
+            </div>
+        </nav>
         <hr>
-        <h3>Pontos fortes</h3>
+        <hr>
 
-    <ul>
-        <li>Domínio pleno em lógica de programação</li>
-        <li>Paciente e adaptável</li>
-        <li>Resiliência</li>
-    </ul>
-    <hr>
+
+
+        <div class="container text-center centro">
+            <div class="div1">
+                <img class="perfil" src="img/fotopag.jpeg" alt="" width="300px" height="230px">
+
+                <h1>Kaynã Xavier</h1>
+                <p>
+                    <em>
+                        Estudante de programação com objetivo em ser um desenvolvedor back-end
+                    </em>
+
+                </p>
+
+                <p>Veja meu </p><a href=""><img src="img/linkedin.png" width="30px" height="30px" class="linkedin"></a>
+
+
+            </div>
+
+            <br>
+
+
+            <div class="conteudo1">
+                <p>Atualmente estou cursando um curso Técnico de Informática, um curso superior em Análise e
+                    desenvolvimento
+                    de sistemas, além disso, tenho certificações na linguagem Java, Python e MySQL.
+                </p>
+                <br>
+                <hr>
+                <h3>Pontos fortes</h3>
+
+                <ul>
+                    <li>Domínio pleno em lógica de programação</li>
+                    <li>Paciente e adaptável</li>
+                    <li>Resiliência</li>
+                </ul>
+                <hr>
+            </div>
+
+            <div class="conteudo2">
+                <table>
+                    <thead>
+                        <h3>Experiencias profissionais</h3>
+                        <tr>
+
+                        </tr>
+                        <tr>
+                            <th>Data</th>
+                            <th>Experiencia</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>2019</td>
+                            <td>Estagiario na Accenture como dev JR</td>
+                        </tr>
+
+                        <tr>
+                            <td>2021</td>
+                            <td>Testador de programas na FAST</td>
+                        </tr>
+
+                        <tr>
+                            <td>2022</td>
+                            <td>Desenvolvedor backend na Visagio</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+
+                <div class="container">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Curiosidade #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Primeiro contato com programação.</strong> Eu cursava Engenharia Mecânica na
+                                    UFPE e no 2º período, temos uma cadeira chamada "computação eletrônica", onde
+                                    aprendemos lógica de programação com a linguagem C. Eu reprovei essa cadeira e jurei
+                                    nunca mais querer ver programas na minha vida.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Curiosidade #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Sou bombeiro civil.</strong> Em junho de 2020 meus pais me convenceram a
+                                    fazer um curso de bombeiro civil já que a faculdade não estava ativa por conta da
+                                    pandemia. Aprendi sobre o trabalho de bombeiro, como socorrer pessoas e um pouco de
+                                    LIBRAS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Curiosidade #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Emprego dos sonhos.</strong> Quando estava na alfabetização, na aula da
+                                    saudade perguntaram que profissão queriamos seguir quando crescermos. E como eu
+                                    assistia muito desenho, eu disse que queria ser um Power Ranger para salvar as
+                                    pessoas. Meus antigos colegas de classe me zoam com isso até hoje.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Outros
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="hobbies.html">Meus Hobbies</a></li>
+                        <li><a class="dropdown-item" href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+
+
+                <hr>
+            </div>
+
+
+            <footer style="text-align: center;">
+                Treina Recife &COPY;
+            </footer>
+        </div>
     </div>
-    
-    <div class="conteudo2">
-        <table>
-            <thead>
-                <h3>Experiencias profissionais</h3>
-                <tr>
-
-                </tr>
-                <tr>
-                    <th>Data</th>
-                    <th>Experiencia</th>
-                </tr>
-
-            </thead>
-
-            <tbody>
-
-                <tr>
-                    <td>2019</td>
-                    <td>Estagiario na Accenture como dev JR</td>
-                </tr>
-
-                <tr>
-                    <td>2021</td>
-                    <td>Testador de programas na FAST</td>
-                </tr>
-
-                <tr>
-                    <td>2022</td>
-                    <td>Desenvolvedor backend na Visagio</td>
-                </tr>
-            </tbody>
-
-        </table>
-        <br>
-        <a href="hobbies.html">Meus Hobbies</a>
-        <br>
-        <a href="contato.html">Contato</a>
-    </div>
-
-
-    <hr>
-    <footer style="text-align: center;">
-        Treina Recife &COPY;
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

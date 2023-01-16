@@ -1,9 +1,18 @@
 
-body{
-    background: linear-gradient(#678983, #2C74B3);
+.centro{
+    background: linear-gradient(#FEFCF3, #F5EBE0);
     background-repeat: no-repeat;
     color: #181D31;
     font-family: 'Poppins', sans-serif;
+}
+
+.treinaimg{
+    border-radius: 100%;
+}
+
+.nav1{
+    background-color: #0A2647;
+    position: fixed;
 }
 
 .div1{
@@ -67,3 +76,8 @@ hr{
     align-items: center;
     font-weight: 500;
 }
+
+.content{
+    background-color: #181D31;
+}
+
